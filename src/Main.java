@@ -48,7 +48,17 @@ public class Main {
             System.out.println(entry);
         }
 
-
+        //binary tree
+        Tree bin_tree = new Tree();
+        bin_tree.insertNode(6);
+        bin_tree.insertNode(2);
+        bin_tree.insertNode(8);
+        bin_tree.insertNode(4);
+        bin_tree.insertNode(5);
+        bin_tree.insertNode(7);
+        bin_tree.insertNode(9);
+        bin_tree.insertNode(1);
+        bin_tree.printTree();
 
 
 
